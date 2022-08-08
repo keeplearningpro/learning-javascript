@@ -221,13 +221,13 @@ main.append(addPack(greenPack));
 // });
 // article.append(stuffList);
 
-// const eventFunction = function (event) {
-// 	var mouseX = event.pageX;
-// 	var mouseY = event.pageY;
-// 	console.warn(mouseX,mouseY);
-// }
+const eventFunction = function (event) {
+	var mouseX = event.pageX;
+	var mouseY = event.pageY;
+	console.warn(mouseX,mouseY);
+}
 
-// window.addEventListener("mouseup",eventFunction,false)
+window.addEventListener("mouseup",eventFunction,false)
 
 const buttonHandle = document.querySelector(".cta-button");
 console.log(buttonHandle);
